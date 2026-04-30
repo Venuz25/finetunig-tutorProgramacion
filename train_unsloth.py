@@ -11,9 +11,9 @@ NAME = os.getenv("MODEL_NAME", "SHUKAKU")
 VERSION = os.getenv("MODEL_VERSION", "2.0")
 
 # CONFIGURACIÓN
-DATASET_FILE = "ia-model/datasets/datasets-generados/dataset_v2.jsonl" 
-OUTPUT_DIR = f"ia-model/models/{NAME}{VERSION}/unsloth-checkpoints"
-FINAL_MODEL_DIR = f"ia-model/models/{NAME}{VERSION}/qwen-tutor-unsloth"
+DATASET_FILE = "./datasets/datasets-generados/dataset_v2.jsonl" 
+OUTPUT_DIR = f"./models/{NAME}{VERSION}/unsloth-checkpoints"
+FINAL_MODEL_DIR = f"./models/{NAME}{VERSION}/qwen-tutor-unsloth"
 
 MODEL_ID = "Qwen/Qwen2.5-1.5B-Instruct" 
 

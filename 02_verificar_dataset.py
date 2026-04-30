@@ -1,8 +1,8 @@
 import json
 import os
 
-INPUT_FILE = "ia-model/datasets/datasets-generados/dataset_450samples.jsonl"
-OUTPUT_FILE = "ia-model/datasets/dataset_450samples_v1.jsonl"
+INPUT_FILE = "./datasets/datasets-generados/dataset_450samples.jsonl"
+OUTPUT_FILE = "./datasets/dataset_450samples_v1.jsonl"
 
 MAX_CARACTERES_TOTALES = 4000
 

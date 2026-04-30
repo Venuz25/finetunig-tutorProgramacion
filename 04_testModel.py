@@ -11,7 +11,7 @@ VERSION = os.getenv("MODEL_VERSION")
 
 # Rutas
 BASE_MODEL = "Qwen/Qwen2.5-0.5B-Instruct"
-ADAPTER_DIR = f"ia-model/models/{NAME}{VERSION}/qwen-tutor"
+ADAPTER_DIR = f"./models/{NAME}{VERSION}/qwen-tutor"
 
 # ==========================================
 # FUNCIONES DEL SHELL AGÉNTICO

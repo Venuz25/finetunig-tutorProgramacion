@@ -8,7 +8,7 @@ CANTIDAD_EJEMPLOS = 750 # Cuántos ejemplos aleatorios quieres extraer en total
 MAX_CHARS_PROMPT = 1000 # Ignorar problemas muy largos para no gastar demasiados tokens
 
 # Ruta de salida
-RAW_SAMPLES_FILE = f"ia-model/datasets/datasets-filtrados/{CANTIDAD_EJEMPLOS}_samples.jsonl"
+RAW_SAMPLES_FILE = f"./datasets/datasets-filtrados/{CANTIDAD_EJEMPLOS}_samples.jsonl"
 
 def extraer_ejemplos():
     print("Descargando e indexando datasets desde Hugging Face...")

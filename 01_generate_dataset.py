@@ -26,8 +26,8 @@ KEYS = claves.split(",")
 MODEL_ID = 'gemini-2.5-flash'
 NO_SAMPLES = 750
 
-INPUT_FILE = f"ia-model/datasets/datasets-filtrados/{NO_SAMPLES}_samples.jsonl"
-OUTPUT_FILE = f"ia-model/datasets/datasets-generados/dataset_{NO_SAMPLES}samples.jsonl"
+INPUT_FILE = f"./datasets/datasets-filtrados/{NO_SAMPLES}_samples.jsonl"
+OUTPUT_FILE = f"./datasets/datasets-generados/dataset_{NO_SAMPLES}samples.jsonl"
 
 # 1. DEFINICIÓN DE ESCENARIOS (5 Estados)
 ESCENARIOS = [

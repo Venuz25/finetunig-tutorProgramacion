@@ -14,9 +14,9 @@ VERSION = os.getenv("MODEL_VERSION")
 # CONFIGURACIÓN DE RUTAS Y MODELO
 # ==========================================
 # [IMPORTANTE] Asegúrate de apuntar a tu dataset V2 (el que tiene los 750+ ejemplos balanceados)
-DATASET_FILE = "ia-model/datasets/datasets-generados/dataset_v2.jsonl" 
-OUTPUT_DIR = f"ia-model/models/{NAME}{VERSION}/qwen-checkpoints"
-FINAL_MODEL_DIR = f"ia-model/models/{NAME}{VERSION}/qwen-tutor"
+DATASET_FILE = "./datasets/datasets-generados/dataset_v2.jsonl" 
+OUTPUT_DIR = f"./models/{NAME}{VERSION}/qwen-checkpoints"
+FINAL_MODEL_DIR = f"./models/{NAME}{VERSION}/qwen-tutor"
 
 # [NUEVO] Subimos la inteligencia al modelo "Ricitos de Oro"
 MODEL_ID = "Qwen/Qwen2.5-1.5B-Instruct" 
